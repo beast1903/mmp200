@@ -43,6 +43,8 @@ a:active{color: #ff9900;}
                 margin-right: 0
 	}
 }
+h1{font-weight: normal;
+      font-size: 2.5em;}
 h3,h4{color: #e06c18;
  }
 h2{text-transform: uppercase;
