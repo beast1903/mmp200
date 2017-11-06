@@ -1,4 +1,4 @@
-body{font-family: 'Righteous', cursive;
+body{
      max-width: 1170px;
      padding: 1em;     
      padding-top: 0;
@@ -20,6 +20,7 @@ body{font-family: 'Righteous', cursive;
     display:flex;
     flex-direction: column;
     align-items:flex-end;
+    font-family: 'Bungee Inline', cursive;
 }
 
 nav a{
@@ -43,6 +44,7 @@ nav li ul{  /*  show dropdown menu in mobile  */
 
 nav li li{
         border:none;
+
 }
 
 a{color: #1083B6;text-decoration: none;}
@@ -53,7 +55,7 @@ a:active{color: #ff9900;}
 #large-photo{
     height: 360px;
     border: solid 1px gray;
-    background-image: url("largephoto.jpg");
+    background-image: url("concert.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -95,8 +97,8 @@ a:active{color: #ff9900;}
     justify-content: center;
     align-items: center;
 }
-h1{font-size: 40pt;color: green;}
-    h2{font-size: 30pt;color: orange;}
+h1{font-size: 55pt;color: green;font-family: 'Bungee Inline', cursive;}
+    h2{font-size: 30pt;color: orange;font-family: 'Bungee Inline', cursive;}
     h3{font-size: 20pt;}
     #friday h3{color: white;}
     #sun h3{color: white;}
@@ -106,6 +108,7 @@ h1{font-size: 40pt;color: green;}
     p{font-family: Arial;}
     h3{font-family: Arial;}
     footer{font-family: Arial;}
+    
 @media (min-width:640px){
    
     #toggle-menu{        /* hiding the button */
