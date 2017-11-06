@@ -38,7 +38,7 @@ nav li{
     padding:0.5em;
     }
 
-nav li ul{  /*  show dropdown menu in mobile  */
+nav li ul{  
     display:block;
     }
 
@@ -79,10 +79,10 @@ a:active{color: #ff9900;}
 #sun{
     background-image: url("sun.jpg");
 }
-.row{  /* flex container div */
-        flex-direction: row; /* reverses the column direction set for mobile to row */
+.row{  
+        flex-direction: row; 
     }
-.row{  /* flex container div */
+.row{  
         display:flex;
         flex-direction: column;
     }
@@ -111,11 +111,11 @@ h1{font-size: 55pt;color: green;font-family: 'Bungee Inline', cursive;}
     
 @media (min-width:640px){
    
-    #toggle-menu{        /* hiding the button */
+    #toggle-menu{        
         display:none;
     }
     
-    nav ul {             /* displaying the button */
+    nav ul {             
         display:block;
         text-align: center;
     }
@@ -125,17 +125,15 @@ h1{font-size: 55pt;color: green;font-family: 'Bungee Inline', cursive;}
     }
      
     nav li{
-        display: inline-block; /* turns menu horizontal */
+        display: inline-block; 
         border:none;
         margin: 0.5em 1em;
     }
-nav li ul{ /* dropdown menu */
+nav li ul{ 
         display:none;
-        position:absolute; /* removes item from the normal flow of HTML. 
-                            There will not be reserved space for it and
-                            it will overlap other elements */
+        position:absolute; 
         background-color: #fff;
-        width:auto; /* will be as wide as its content */
+        width:auto; 
         text-align: left;
     }
     
@@ -143,8 +141,8 @@ nav li ul{ /* dropdown menu */
         display:block;
     }
         
-    nav li li{ /* dropdown menu elements */
-        display:block;   /* makes sure it is vertical */
+    nav li li{ 
+        display:block;   
     } 
        nav li li a{
         color:#000;   
@@ -162,8 +160,8 @@ img {
 }
 
 
-.row{  /* flex container div */
-        flex-direction: row; /* reverses the column direction set for mobile to row */
+.row{  
+        flex-direction: row; 
     }
 
     
