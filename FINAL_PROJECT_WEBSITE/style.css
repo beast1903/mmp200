@@ -56,7 +56,8 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+h3 { padding: 20px;}
 
-.recipe {padding: 20px;} 
-.recipe h2,img {text-align: center;}
+.recipe {padding: 30px;} 
+.recipe {text-align: center;}
 .card{font-size: 15pt;}
